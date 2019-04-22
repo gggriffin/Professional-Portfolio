@@ -1,17 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/portfolio.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Get Me Griffin</title>
+    <title>Get Going Griffin</title>
 </head>
+
 <body>
-    
 
 
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <button id="titleBtn">
+                <h1 class="display-1 title-text font-weight-bold">G.G.Griffin</h1>
+            </button>
+        </div>
+    </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav offset-7">
+                <li class="nav-item active mr-3">
+                    <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="#" id="portfolioBtn">Stuff I Made</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="#" id="contactBtn">Get In Touch</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="#" id="aboutBtn">More About Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container mt-5" id="homeDiv">
+        <div class="row">
+            <div class="col-8 offset-2 content">
+                <h3 class="text-center content-title mt-4 mb-2 py-2">The Basics</h3>
+                <p class="p-2 text-center">I'm Garrett Griffin and I'm a programmer in Kansas City. Look at my stuff.
+                </p>
+            </div>
+            <img class="offset-4 gif" src="./assets/images/Self Portrait (1).gif" alt="">
+        </div>
+    </div>
+
+
+    <div class="container mt-5" id="aboutDiv">
+        <div class="row">
+            <div class="col-8 content mt-5 offset-2">
+                <h3 class="text-center content-title mt-4 mb-2 py-2">About Me</h3>
+                <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta labore, neque soluta
+                    minima odit repellat deleniti maxime sequi alias. Veniam vitae cumque voluptatibus perferendis. Hic
+                    animi modi ullam suscipit libero!</p>
+            </div>
+            <div class="mt-5 mb-5 offset-2">
+                <img src="./assets/images/Portfolio-Rushmore.jpg" class="jack-pic" alt="">
+                <img src="./assets/images/Portfolio-Jack.jpg" alt="" class="jack-pic">
+                <img src="./assets/images/Portfolio-Chiefs.jpg" class="jack-pic mr-5" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5" id="portfolioDiv">
+        <div class="row">
+            <div class="col-8 content mt-5 offset-2">
+                <h3 class="text-center content-title mt-4 mb-2 py-2">Recent Work</h3>
+            </div>
+            <div class="col-8 content mt-3 mb-4 py-2 offset-2">
+                <div class="col-6 offset-3">
+                    <a href=" https://gggriffin.github.io/Word-Guess-Game/" target="_blank">
+                        <button>
+                            <img src="./assets/images/galaxy-infinity-milky-way-110854.jpg" target="_blank" class="img-responsive w-100"
+                                alt="Hangman">
+                            <h4 class="text-center">Space n Stuff</h4>
+                        </button>
+                    </a>
+                </div>
+                <div class="col-6 offset-3">
+                    <a href="https://gggriffin.github.io/unit-4-game/" target="_blank">
+                        <button>
+                            <img src="./assets/images/gem_blue.svg" class="w-100" alt="Crystal Clicker">
+                            <h4 class="text-center">Crystal Clicker</h4>
+                        </button>
+                    </a>
+                </div>
+                <div class="col-6 offset-3">
+                    <a href=" https://gggriffin.github.io/TriviaGame/" target="_blank">
+                        <button>
+                            <img src="./assets/images/KC-Skyline-big.jpeg" class="img-responsive w-100" alt="KC Trivia">
+                            <h4 class="text-center">KC Trivia</h4>
+                        </button>
+                    </a>
+                </div>
+                <div class="col-6 offset-3">
+                        <a href="https://gggriffin.github.io/giphy-api/" target="_blank">
+                        <button>
+                            <img src="./assets/images/snes-controller-wallpaper.jpg" class="img-responsive w-100" alt="KC Trivia">
+                            <h4 class="text-center">Retro API</h4>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
     <script src="./assets/javascript/portfolio.js"></script>
 </body>
+
 </html>

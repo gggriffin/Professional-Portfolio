@@ -1,0 +1,60 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #559CC8;
+}
+.jumbotron {
+    background-color: #559CC8;
+    border-bottom: 25px solid #EFCB68;
+}
+
+.title-text {
+    color: #EFCB68;
+    font-family: 'Bangers', cursive;
+    letter-spacing: .05em;
+}
+
+.navbar {
+    margin-top: -33px;
+    background-color: #F7FFDD;
+    color: #000100;
+    border-bottom: 25px solid #EFCB68;
+    font-size: 2vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-nav {
+    margin-left: 1px solid #000100;
+}
+
+.content-title {
+    font-family: 'Bangers', cursive;
+    letter-spacing: .05em;
+    color: #50514F;
+}
+
+#titleBtn {
+    background-color: #559CC8;
+    border: #559CC8;
+}
+
+.gif {
+    width: 400px;
+    height: 400px;
+}
+
+.jack-pic {
+    height: 300px;
+    border-radius: 1em;
+}
+
+.content {
+    border: 10px solid #EFCB68;
+    background-color: #F7FFDD;
+    border-radius: 1em;
+    font-family: 'Open Sans', sans-serif;
+    color: #559CC8;
+    height: fit-content;
+}
