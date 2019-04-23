@@ -14,6 +14,11 @@ $('#aboutBtn').on('click', function () {
     $('#aboutDiv').show();
 });
 
+$('#gifBtn').on('click', function () {
+    hideAll();
+    $('#portfolioDiv').show();
+})
+
 $('#portfolioBtn').on('click', function () {
     hideAll();
     $('#portfolioDiv').show();

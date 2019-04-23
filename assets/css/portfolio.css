@@ -58,3 +58,23 @@ body {
     color: #559CC8;
     height: fit-content;
 }
+
+.portfolio-display {
+    border: 10px solid #559CC8;
+    background-color: #559CC8;
+    border-radius: 1em;
+    font-family: 'Open Sans', sans-serif;
+    color: #559CC8;
+    height: fit-content;
+}
+
+.portfolio-button {
+    background-color: #559CC8;
+    border-color: #559CC8;
+    border-radius: 1em;
+    color: #EFCB68
+}
+
+.portfolio-picture {
+    border-radius: 1em;
+}
