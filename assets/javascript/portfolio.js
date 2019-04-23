@@ -2,6 +2,7 @@ function hideAll () {
     $('#homeDiv').hide();
     $('#aboutDiv').hide();
     $('#portfolioDiv').hide();
+    $('#contactDiv').hide();
 }
 
 $(function () {
@@ -9,9 +10,9 @@ $(function () {
     $('#homeDiv').show();
 });
 
-$('#aboutBtn').on('click', function () {
+$('#titleBtn').on('click', function () {
     hideAll();
-    $('#aboutDiv').show();
+    $('#homeDiv').show();
 });
 
 $('#gifBtn').on('click', function () {
@@ -24,7 +25,17 @@ $('#portfolioBtn').on('click', function () {
     $('#portfolioDiv').show();
 });
 
-$('#titleBtn').on('click', function () {
+$('#contactBtn').on('click', function () {
     hideAll();
-    $('#homeDiv').show();
+    $('#contactDiv').show();
+})
+
+$('#aboutBtn').on('click', function () {
+    hideAll();
+    $('#aboutDiv').show();
 });
+
+
+
+
+
