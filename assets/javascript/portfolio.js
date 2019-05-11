@@ -18,7 +18,7 @@ $('#titleBtn').on('click', function () {
 $('#gifBtn').on('click', function () {
     hideAll();
     $('#portfolioDiv').show();
-})
+});
 
 $('#portfolioBtn').on('click', function () {
     hideAll();

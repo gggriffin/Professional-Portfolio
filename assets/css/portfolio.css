@@ -78,3 +78,15 @@ body {
 .portfolio-picture {
     border-radius: 1em;
 }
+
+.project-title {
+    font-family: 'Bangers', cursive;
+    letter-spacing: .05em;
+}
+
+.project-description {
+    background-color: #F7FFDD;
+    color: #4F5D75;
+    border: 5px solid #EFCB68;
+    border-radius: 1em;
+}
