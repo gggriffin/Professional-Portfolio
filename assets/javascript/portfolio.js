@@ -8,6 +8,18 @@ function hideAll () {
 $(function () {
     hideAll();
     $('#homeDiv').show();
+
+   //Enables hover viewing of animated gifs
+    $('.portfolio-picture').hover(function() {
+        $(this).attr('src', $(this).attr('data-animated'));
+
+    }, function() {
+        $(this).attr('src', $(this).attr('data-still')
+        )
+    });
+
+    
+    
 });
 
 $('#titleBtn').on('click', function () {
@@ -34,6 +46,9 @@ $('#aboutBtn').on('click', function () {
     hideAll();
     $('#aboutDiv').show();
 });
+
+
+
 
 
 
