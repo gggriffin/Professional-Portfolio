@@ -98,6 +98,10 @@ body {
     animation-iteration-count: infinite;
   }
 
+.library-icon {
+    font-size: 7em;
+}
+
 .portfolio-display {
     border: 10px solid #559CC8;
     background-color: #559CC8;
