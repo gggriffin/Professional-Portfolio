@@ -14,6 +14,7 @@ body {
     color: #EFCB68;
     font-family: 'Bangers', cursive;
     letter-spacing: .05em;
+    font-size: 8em;
 }
 
 .navbar {
@@ -89,4 +90,11 @@ body {
     color: #4F5D75;
     border: 5px solid #EFCB68;
     border-radius: 1em;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .title-text {
+       font-size: 4em; 
+    }
 }
